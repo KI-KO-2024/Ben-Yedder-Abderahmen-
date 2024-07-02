@@ -1,0 +1,72 @@
+/* Importation des polices */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@600&display=swap');
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url('oxford-hp_0.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 600;
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+h2, h3 {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 600;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 15px 0;
+}
+
+a {
+    color: #0073b1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 16px; /* same as h3 */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #005582;
+}
